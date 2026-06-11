@@ -1,0 +1,586 @@
+{
+  "summary": {
+    "High": 6,
+    "Medium": 19,
+    "Low": 25
+  },
+  "total": 50,
+  "by_level": {
+    "High": [
+      {
+        "customer_id": "CUST-1000",
+        "name": "Umbrella Industries",
+        "days_to_renewal": 47,
+        "risk_score": 60,
+        "risk_level": "High",
+        "reasons": [
+          "Renewal approaching (47 days)",
+          "No active executive sponsor",
+          "8 open support tickets",
+          "No QBR in 6+ months",
+          "Detractor NPS (-26)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1015",
+        "name": "Gekko Corp",
+        "days_to_renewal": 158,
+        "risk_score": 55,
+        "risk_level": "High",
+        "reasons": [
+          "Low usage (20.7%)",
+          "8 open support tickets",
+          "No QBR in 6+ months",
+          "Detractor NPS (-3)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1021",
+        "name": "Stark Holdings",
+        "days_to_renewal": 9,
+        "risk_score": 77,
+        "risk_level": "High",
+        "reasons": [
+          "Renewal in 9 days",
+          "Low usage (14.3%)",
+          "10 open support tickets",
+          "Detractor NPS (-19)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1024",
+        "name": "Nakatomi Industries",
+        "days_to_renewal": 2,
+        "risk_score": 75,
+        "risk_level": "High",
+        "reasons": [
+          "Renewal in 2 days",
+          "No active executive sponsor",
+          "8 open support tickets",
+          "No QBR in 6+ months",
+          "Detractor NPS (-20)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1025",
+        "name": "Stark Corp",
+        "days_to_renewal": 50,
+        "risk_score": 60,
+        "risk_level": "High",
+        "reasons": [
+          "Renewal approaching (50 days)",
+          "No active executive sponsor",
+          "9 open support tickets",
+          "No QBR in 6+ months",
+          "Detractor NPS (-25)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1039",
+        "name": "Dunder Global",
+        "days_to_renewal": 137,
+        "risk_score": 58,
+        "risk_level": "High",
+        "reasons": [
+          "Low usage (9.2%)",
+          "No active executive sponsor",
+          "6 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      }
+    ],
+    "Medium": [
+      {
+        "customer_id": "CUST-1002",
+        "name": "Wonka Solutions",
+        "days_to_renewal": 184,
+        "risk_score": 33,
+        "risk_level": "Medium",
+        "reasons": [
+          "Soft usage (37.3%)",
+          "No active executive sponsor",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1003",
+        "name": "Umbrella Corp",
+        "days_to_renewal": 81,
+        "risk_score": 30,
+        "risk_level": "Medium",
+        "reasons": [
+          "Soft usage (30.1%)",
+          "No QBR in 6+ months",
+          "Detractor NPS (-15)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1004",
+        "name": "Massive Corp",
+        "days_to_renewal": 148,
+        "risk_score": 40,
+        "risk_level": "Medium",
+        "reasons": [
+          "Low usage (23.3%)",
+          "No active executive sponsor"
+        ]
+      },
+      {
+        "customer_id": "CUST-1005",
+        "name": "Cyberdyne Corp",
+        "days_to_renewal": 87,
+        "risk_score": 35,
+        "risk_level": "Medium",
+        "reasons": [
+          "No active executive sponsor",
+          "No QBR in 6+ months",
+          "Detractor NPS (-4)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1010",
+        "name": "Gekko Corp",
+        "days_to_renewal": 29,
+        "risk_score": 48,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal in 29 days",
+          "6 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1014",
+        "name": "Gekko Industries",
+        "days_to_renewal": 196,
+        "risk_score": 35,
+        "risk_level": "Medium",
+        "reasons": [
+          "Low usage (10.5%)",
+          "9 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1016",
+        "name": "Nakatomi Group",
+        "days_to_renewal": 161,
+        "risk_score": 37,
+        "risk_level": "Medium",
+        "reasons": [
+          "No active executive sponsor",
+          "7 open support tickets",
+          "Detractor NPS (-22)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1017",
+        "name": "Tyrell Industries",
+        "days_to_renewal": 46,
+        "risk_score": 30,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal approaching (46 days)",
+          "No active executive sponsor"
+        ]
+      },
+      {
+        "customer_id": "CUST-1023",
+        "name": "Pied Piper Holdings",
+        "days_to_renewal": 177,
+        "risk_score": 40,
+        "risk_level": "Medium",
+        "reasons": [
+          "Low usage (19.7%)",
+          "No active executive sponsor"
+        ]
+      },
+      {
+        "customer_id": "CUST-1026",
+        "name": "Dunder Corp",
+        "days_to_renewal": 139,
+        "risk_score": 33,
+        "risk_level": "Medium",
+        "reasons": [
+          "Soft usage (35.1%)",
+          "No active executive sponsor",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1030",
+        "name": "Nakatomi Holdings",
+        "days_to_renewal": 57,
+        "risk_score": 35,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal approaching (57 days)",
+          "No QBR in 6+ months",
+          "Detractor NPS (-4)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1031",
+        "name": "Tyrell Group",
+        "days_to_renewal": 115,
+        "risk_score": 47,
+        "risk_level": "Medium",
+        "reasons": [
+          "Low usage (13.8%)",
+          "6 open support tickets",
+          "Detractor NPS (-30)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1035",
+        "name": "Stark Systems",
+        "days_to_renewal": 35,
+        "risk_score": 37,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal approaching (35 days)",
+          "11 open support tickets",
+          "Detractor NPS (-10)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1036",
+        "name": "Umbrella Partners",
+        "days_to_renewal": 46,
+        "risk_score": 47,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal approaching (46 days)",
+          "Soft usage (38.2%)",
+          "12 open support tickets",
+          "Detractor NPS (-27)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1037",
+        "name": "Wayne Partners",
+        "days_to_renewal": 7,
+        "risk_score": 48,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal in 7 days",
+          "6 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1038",
+        "name": "Acme Corp",
+        "days_to_renewal": 138,
+        "risk_score": 35,
+        "risk_level": "Medium",
+        "reasons": [
+          "Low usage (15.3%)",
+          "6 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1041",
+        "name": "Cyberdyne Partners",
+        "days_to_renewal": 168,
+        "risk_score": 43,
+        "risk_level": "Medium",
+        "reasons": [
+          "Low usage (17.1%)",
+          "6 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1043",
+        "name": "Tyrell Solutions",
+        "days_to_renewal": 162,
+        "risk_score": 30,
+        "risk_level": "Medium",
+        "reasons": [
+          "12 open support tickets",
+          "No QBR in 6+ months",
+          "Detractor NPS (-20)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1046",
+        "name": "Acme Corp",
+        "days_to_renewal": 35,
+        "risk_score": 40,
+        "risk_level": "Medium",
+        "reasons": [
+          "Renewal approaching (35 days)",
+          "Low usage (9.8%)"
+        ]
+      }
+    ],
+    "Low": [
+      {
+        "customer_id": "CUST-1001",
+        "name": "Acme Corp",
+        "days_to_renewal": 119,
+        "risk_score": 18,
+        "risk_level": "Low",
+        "reasons": [
+          "11 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1006",
+        "name": "Soylent Corp",
+        "days_to_renewal": 176,
+        "risk_score": 18,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (48.9%)",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1007",
+        "name": "Nakatomi Group",
+        "days_to_renewal": 188,
+        "risk_score": 22,
+        "risk_level": "Low",
+        "reasons": [
+          "12 open support tickets",
+          "Detractor NPS (-22)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1008",
+        "name": "Wayne Logistics",
+        "days_to_renewal": 157,
+        "risk_score": 22,
+        "risk_level": "Low",
+        "reasons": [
+          "10 open support tickets",
+          "Detractor NPS (-13)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1009",
+        "name": "Wonka Global",
+        "days_to_renewal": 139,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (42.9%)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1011",
+        "name": "Soylent Global",
+        "days_to_renewal": 174,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "12 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1012",
+        "name": "Vandelay Systems",
+        "days_to_renewal": 174,
+        "risk_score": 18,
+        "risk_level": "Low",
+        "reasons": [
+          "8 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1013",
+        "name": "Oscorp Logistics",
+        "days_to_renewal": 85,
+        "risk_score": 18,
+        "risk_level": "Low",
+        "reasons": [
+          "8 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1018",
+        "name": "Tyrell Corp",
+        "days_to_renewal": 161,
+        "risk_score": 18,
+        "risk_level": "Low",
+        "reasons": [
+          "11 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1019",
+        "name": "Gekko Group",
+        "days_to_renewal": 38,
+        "risk_score": 23,
+        "risk_level": "Low",
+        "reasons": [
+          "Renewal approaching (38 days)",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1020",
+        "name": "Globex Corp",
+        "days_to_renewal": 176,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (28.6%)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1022",
+        "name": "Wonka Systems",
+        "days_to_renewal": 113,
+        "risk_score": 8,
+        "risk_level": "Low",
+        "reasons": [
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1027",
+        "name": "Wonka Holdings",
+        "days_to_renewal": 161,
+        "risk_score": 20,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (35.0%)",
+          "12 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1028",
+        "name": "Dunder Logistics",
+        "days_to_renewal": 127,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (30.2%)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1029",
+        "name": "Cyberdyne Systems",
+        "days_to_renewal": 170,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "12 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1032",
+        "name": "Tyrell Systems",
+        "days_to_renewal": 179,
+        "risk_score": 25,
+        "risk_level": "Low",
+        "reasons": [
+          "No active executive sponsor",
+          "8 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1033",
+        "name": "Hooli Global",
+        "days_to_renewal": 139,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (45.8%)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1034",
+        "name": "Wayne Group",
+        "days_to_renewal": 189,
+        "risk_score": 25,
+        "risk_level": "Low",
+        "reasons": [
+          "No active executive sponsor",
+          "11 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1040",
+        "name": "Wayne Labs",
+        "days_to_renewal": 160,
+        "risk_score": 10,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (34.8%)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1042",
+        "name": "Stark Logistics",
+        "days_to_renewal": 130,
+        "risk_score": 28,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (32.3%)",
+          "6 open support tickets",
+          "No QBR in 6+ months"
+        ]
+      },
+      {
+        "customer_id": "CUST-1044",
+        "name": "Cyberdyne Global",
+        "days_to_renewal": 199,
+        "risk_score": 25,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (26.3%)",
+          "No active executive sponsor"
+        ]
+      },
+      {
+        "customer_id": "CUST-1045",
+        "name": "Gekko Logistics",
+        "days_to_renewal": 96,
+        "risk_score": 22,
+        "risk_level": "Low",
+        "reasons": [
+          "6 open support tickets",
+          "Detractor NPS (-12)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1047",
+        "name": "Hooli Solutions",
+        "days_to_renewal": 103,
+        "risk_score": 20,
+        "risk_level": "Low",
+        "reasons": [
+          "Soft usage (45.5%)",
+          "8 open support tickets"
+        ]
+      },
+      {
+        "customer_id": "CUST-1048",
+        "name": "Gekko Solutions",
+        "days_to_renewal": 53,
+        "risk_score": 15,
+        "risk_level": "Low",
+        "reasons": [
+          "Renewal approaching (53 days)"
+        ]
+      },
+      {
+        "customer_id": "CUST-1049",
+        "name": "Cyberdyne Group",
+        "days_to_renewal": 71,
+        "risk_score": 25,
+        "risk_level": "Low",
+        "reasons": [
+          "Low usage (18.1%)"
+        ]
+      }
+    ]
+  }
+}
